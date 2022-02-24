@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laba3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <p id="startText">Загадайте целое число от 0 до 100, и я угадаю его за 7 попыток или меньше!</p>    
+    <button onclick="start()" id="startButton">Начинаем!</button>
+
+    <p id="question"></p>
+    <button id="small" onclick="smallClick()" class="hideBlock">Меньше</button>
+    <button id="bingo" onclick="bingoClick()" class="hideBlock">Угадал!</button>
+    <button id="big" onclick="bigClick()" class="hideBlock">Больше</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
